@@ -1889,6 +1889,7 @@
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
+	
 
 	header {
 		margin-bottom: 1em;
@@ -2043,6 +2044,11 @@
 			padding-left: 0.25em;
 		}
 
+	.tagline {
+		color:aquamarine;
+		text-shadow:2px 2px 4px grey;
+		font-weight: 200;
+	}
 /* Form */
 
 	form label {
@@ -2281,6 +2287,8 @@
 				font-size: 4.25em;
 				line-height: 1em;
 				letter-spacing: .1px;
+				color: aquamarine;
+    			text-shadow: 2px 2px 4px grey;
 			}
 
 			.main.style1:before {
@@ -2874,20 +2882,20 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: url("https://images.unsplash.com/photo-1433208406127-d9e1a0a1f1aa?q=80&fm=jpg&s=8a66d30e7fa9e02f2d0ac9716e3000b6");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom right;
+		background-repeat: repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("https://images.unsplash.com/34/rcaNUh3pQ9GD8w7Iy8qE__DSC0940.jpg?q=80&fm=jpg&s=9b48d3645f5992e69884c0d38c95c6db");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Two */
