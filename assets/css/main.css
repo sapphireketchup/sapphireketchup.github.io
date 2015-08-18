@@ -2254,10 +2254,20 @@
 				background-image: url("images/arrow.svg");
 			}
 
+		.button.style3 {
+			background-color: transparent;
+			border: solid 1px #e5e6e7;
+			color: inherit;
+			border-radius: .5em;
+			font-weight: normal;
+
+
+		}
+
 /* Box */
 
 	.box {
-		background: #fff;
+		background: rgba(255,255,255,.7);
 		color: #39454b;
 		padding: 2em;
 	}
@@ -2882,7 +2892,7 @@
 /* Intro */
 
 	#intro {
-		background: url("https://images.unsplash.com/photo-1433208406127-d9e1a0a1f1aa?q=80&fm=jpg&s=8a66d30e7fa9e02f2d0ac9716e3000b6");
+		background: url("../../images/leaf.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom right;
@@ -2892,7 +2902,7 @@
 /* One */
 
 	#one {
-		background: url("https://images.unsplash.com/34/rcaNUh3pQ9GD8w7Iy8qE__DSC0940.jpg?q=80&fm=jpg&s=9b48d3645f5992e69884c0d38c95c6db");
+		background: url("../../images/diner.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
@@ -2901,10 +2911,10 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("../../images/honey.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Work */
